@@ -1,47 +1,201 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 
-
-.service_section{
-    margin-top: 90px;
-    .heading_wrapper{
-        display: flex;
-        gap: 3rem;
-        .heading_box{
-          background-color: $green-yellow;  
-        }
-        .heading_text{
-        }
+.service_section {
+  margin-top: 90px;
+  .heading_wrapper {
+    display: flex;
+    gap: 5rem;
+    .heading_box {
+      background-color: $green-yellow;
     }
+    .heading_text {
+    }
+  }
 }
 
-.service_content{
-    display:flex;
-    flex-wrap: wrap;
-    width: inherit;
-    align-items: center;
+.service_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 3.032525rem;
+  column-gap: 3.032525rem;
 }
-.service_card_white{
-    width: 500rem;
-    background-color: $white-smoke;
-    border-radius: 1.42857rem;
-    margin: 4rem 8rem;
+.service_card_white {
+  width: 65rem;
+  height: 23.50207rem;
+  background-color: $white-smoke;
+  border: 1px solid $raisin-black;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
+  display: flex;
+  justify-content: space-between;
+
+  .service_card_text {
     display: flex;
-    justify-content: center;
-}
-.service_card_black{
-    width: 500rem;
-    background-color: $raisin-black;
-    border-radius: 1.42857rem;
-    margin: 4rem 8rem;
-    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin: 3.790656rem 3.790656rem 3.790656rem 3.790656rem;
+    .service_card_title {
+      font-size: 2.1rem;
+      h3 {
+        background-color: $green-yellow;
+        width: fit-content;
+        border-radius: 0.4rem;
+      }
+    }
+    .learn_more {
+      display: flex;
+      width: 12.43335rem;
+      height: 3.10834rem;
+      align-items: center;
+      justify-content: space-between;
+      .learn_more_arrow {
+        width: 3.10834rem;
+        height: 3.10834rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .learn_more_text {
+        width: 8.18782rem;
+        height: 2.122767rem;
+        text-align: center;
+        h4 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  .service_card_illustration{
+    margin: 3.790656rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  }
 }
-.service_card_green{
-    width: 500rem;
-    background-color: $green-yellow;
-    border-radius: 1.42857rem;
-    margin: 4rem 8rem;
+.service_card_black {
+    width: 65rem;
+  height: 23.50207rem;
+  background-color: $raisin-black;
+  border: 1px solid $raisin-black;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
+  display: flex;
+  justify-content: space-between;
+
+  .service_card_text {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin: 3.790656rem;
+    .service_card_title_white {
+      font-size: 2.1rem;
+      h3 {
+        background-color: $white-smoke;
+        width: fit-content;
+        border-radius: 0.4rem;
+      }
+    }
+
+    .service_card_title_green {
+      font-size: 2.1rem;
+      h3 {
+        background-color: $green-yellow;
+        width: fit-content;
+        border-radius: 0.4rem;
+      }
+    }
+    .learn_more {
+      display: flex;
+      width: 12.43335rem;
+      height: 3.10834rem;
+      align-items: center;
+      justify-content: space-between;
+      .learn_more_arrow {
+        width: 3.10834rem;
+        height: 3.10834rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .learn_more_text {
+        width: 8.18782rem;
+        height: 2.122767rem;
+        text-align: center;
+        color: $white-smoke;
+        h4 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  .service_card_illustration{
+    margin: 3.790656rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+}
+.service_card_green {
+  width: 65rem;
+  height: 23.50207rem;
+  background-color: $green-yellow;
+  border: 1px solid $raisin-black;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
+  display: flex;
+  justify-content: space-between;
+
+  .service_card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3.790656rem;
+    .service_card_title {
+      font-size: 2.1rem;
+      h3 {
+        background-color: $white-smoke;
+        width: fit-content;
+        border-radius: 0.4rem;
+      }
+    }
+    .learn_more {
+      display: flex;
+      width: 12.43335rem;
+      height: 3.10834rem;
+      align-items: center;
+      justify-content: space-between;
+      .learn_more_arrow {
+        width: 3.10834rem;
+        height: 3.10834rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .learn_more_text {
+        width: 8.18782rem;
+        height: 2.122767rem;
+        text-align: center;
+        h4 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  .service_card_illustration{
+    margin: 3.790656rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  }
 }

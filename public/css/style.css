@@ -111,7 +111,6 @@ body {
 .companies-logos {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 90px;
 }
 .companies-logos img {
   filter: grayscale(1);
@@ -122,7 +121,7 @@ body {
 }
 .service_section .heading_wrapper {
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
 }
 .service_section .heading_wrapper .heading_box {
   background-color: #B9FF66;
@@ -132,33 +131,183 @@ body {
   flex-wrap: wrap;
   width: inherit;
   align-items: center;
+  justify-content: space-between;
+  row-gap: 3.032525rem;
+  column-gap: 3.032525rem;
 }
 
 .service_card_white {
-  width: 500rem;
+  width: 65rem;
+  height: 23.50207rem;
   background-color: #F3F3F3;
-  border-radius: 1.42857rem;
-  margin: 4rem 8rem;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+.service_card_white .service_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3.790656rem 3.790656rem 3.790656rem 3.790656rem;
+}
+.service_card_white .service_card_text .service_card_title {
+  font-size: 2.1rem;
+}
+.service_card_white .service_card_text .service_card_title h3 {
+  background-color: #B9FF66;
+  width: fit-content;
+  border-radius: 0.4rem;
+}
+.service_card_white .service_card_text .learn_more {
+  display: flex;
+  width: 12.43335rem;
+  height: 3.10834rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_card_white .service_card_text .learn_more .learn_more_arrow {
+  width: 3.10834rem;
+  height: 3.10834rem;
+}
+.service_card_white .service_card_text .learn_more .learn_more_arrow img {
+  width: 100%;
+  height: 100%;
+}
+.service_card_white .service_card_text .learn_more .learn_more_text {
+  width: 8.18782rem;
+  height: 2.122767rem;
+  text-align: center;
+}
+.service_card_white .service_card_text .learn_more .learn_more_text h4 {
+  font-size: 1.4rem;
+}
+.service_card_white .service_card_illustration {
+  margin: 3.790656rem;
+}
+.service_card_white .service_card_illustration img {
+  width: 100%;
+  height: 100%;
 }
 
 .service_card_black {
-  width: 500rem;
+  width: 65rem;
+  height: 23.50207rem;
   background-color: #191A23;
-  border-radius: 1.42857rem;
-  margin: 4rem 8rem;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
   display: flex;
   justify-content: space-between;
 }
+.service_card_black .service_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3.790656rem;
+}
+.service_card_black .service_card_text .service_card_title_white {
+  font-size: 2.1rem;
+}
+.service_card_black .service_card_text .service_card_title_white h3 {
+  background-color: #F3F3F3;
+  width: fit-content;
+  border-radius: 0.4rem;
+}
+.service_card_black .service_card_text .service_card_title_green {
+  font-size: 2.1rem;
+}
+.service_card_black .service_card_text .service_card_title_green h3 {
+  background-color: #B9FF66;
+  width: fit-content;
+  border-radius: 0.4rem;
+}
+.service_card_black .service_card_text .learn_more {
+  display: flex;
+  width: 12.43335rem;
+  height: 3.10834rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_card_black .service_card_text .learn_more .learn_more_arrow {
+  width: 3.10834rem;
+  height: 3.10834rem;
+}
+.service_card_black .service_card_text .learn_more .learn_more_arrow img {
+  width: 100%;
+  height: 100%;
+}
+.service_card_black .service_card_text .learn_more .learn_more_text {
+  width: 8.18782rem;
+  height: 2.122767rem;
+  text-align: center;
+  color: #F3F3F3;
+}
+.service_card_black .service_card_text .learn_more .learn_more_text h4 {
+  font-size: 1.4rem;
+}
+.service_card_black .service_card_illustration {
+  margin: 3.790656rem;
+}
+.service_card_black .service_card_illustration img {
+  width: 100%;
+  height: 100%;
+}
 
 .service_card_green {
-  width: 500rem;
+  width: 65rem;
+  height: 23.50207rem;
   background-color: #B9FF66;
-  border-radius: 1.42857rem;
-  margin: 4rem 8rem;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
   display: flex;
   justify-content: space-between;
+}
+.service_card_green .service_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3.790656rem;
+}
+.service_card_green .service_card_text .service_card_title {
+  font-size: 2.1rem;
+}
+.service_card_green .service_card_text .service_card_title h3 {
+  background-color: #F3F3F3;
+  width: fit-content;
+  border-radius: 0.4rem;
+}
+.service_card_green .service_card_text .learn_more {
+  display: flex;
+  width: 12.43335rem;
+  height: 3.10834rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_card_green .service_card_text .learn_more .learn_more_arrow {
+  width: 3.10834rem;
+  height: 3.10834rem;
+}
+.service_card_green .service_card_text .learn_more .learn_more_arrow img {
+  width: 100%;
+  height: 100%;
+}
+.service_card_green .service_card_text .learn_more .learn_more_text {
+  width: 8.18782rem;
+  height: 2.122767rem;
+  text-align: center;
+}
+.service_card_green .service_card_text .learn_more .learn_more_text h4 {
+  font-size: 1.4rem;
+}
+.service_card_green .service_card_illustration {
+  margin: 3.790656rem;
+}
+.service_card_green .service_card_illustration img {
+  width: 100%;
+  height: 100%;
 }
 
 .btn {
@@ -186,13 +335,14 @@ body {
   background-color: #B9FF66;
   color: #191A23;
   border-radius: 0.4rem;
-  font-size: 3.2rem;
-  width: fit-content;
+  font-size: 2.8rem;
+  width: 10rem;
+  text-align: center;
 }
 
 .heading_text {
   color: #191A23;
-  font-size: 1.6rem;
+  font-size: 1.26rem;
 }
 
 /*# sourceMappingURL=style.css.map */
