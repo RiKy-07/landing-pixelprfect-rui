@@ -3,14 +3,12 @@
 
 .service_section {
   margin-top: 90px;
-  .heading_wrapper {
+  width: inherit;
+  .service_heading_wrapper {
     display: flex;
-    gap: 5rem;
-    .heading_box {
-      background-color: $green-yellow;
-    }
-    .heading_text {
-    }
+    gap: 3.33578rem;
+    margin-bottom: 6.06505rem;
+    align-items: center;
   }
 }
 
@@ -20,8 +18,7 @@
   width: inherit;
   align-items: center;
   justify-content: space-between;
-  row-gap: 3.032525rem;
-  column-gap: 3.032525rem;
+  gap: 3.032525rem;
 }
 .service_card_white {
   width: 65rem;
@@ -37,7 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3.790656rem 3.790656rem 3.790656rem 3.790656rem;
+    margin: 3.790656rem;
     .service_card_title {
       font-size: 2.1rem;
       h3 {
@@ -198,4 +195,59 @@
         height: 100%;
     }
   }
+}
+
+.cta_block{
+    margin-top: 9.40083rem;
+
+    .cta_block_content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $white-smoke;
+        width: inherit;
+        border-radius: 2.57143rem;
+        position: relative;
+
+        .cta_block_text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.97114rem;
+            margin: 4.54879rem;
+            .cta_block_text_h3{
+                
+                h3{
+                  font-size: 2.1rem;  
+                }
+            }
+            .cta_block_text_p{
+
+                p{
+                    font-size: 1.26rem;
+                }
+            }
+            .cta_block_text_button{
+                width: 21.83418rem;
+                height: 5.07948rem;
+                button{
+                    width: 100%;
+                    height: 100%;
+                    font-size: 1.4rem;
+                    padding: 0rem;
+                }
+            }
+        }
+        .cta_block_illustration{
+            width: 37.4517rem;
+            height: 29.87037rem;
+            align-items: center;
+            position: absolute;
+            margin-left: 72.1%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 }
