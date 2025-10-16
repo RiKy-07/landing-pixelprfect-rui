@@ -251,3 +251,64 @@
         }
     }
 }
+
+// Case Studies Section
+
+.case_studies_section{
+  margin-top: 6.06505rem;
+}
+.case_studies_heading_wrapper{
+  display: flex;
+  gap: 3.33578rem;
+  margin-bottom: 6.06505rem;
+  align-items: center;
+}
+.case_studies_content{
+  background-color: $raisin-black;
+  border-radius: 2.57143rem;
+  display: flex;
+  justify-content: space-around;
+   
+   hr{
+    color: white;
+    margin: 5.30692rem;
+   }
+
+  .case_studies_box{
+    margin: 5.30692rem 4.54879rem 5.30692rem 4.54879rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.4rem;
+    }
+
+    .case_studies_text{
+      color: white;
+      font-size: 1.26rem;
+      margin-right: 2.42602rem;
+    }
+    .case_studies_learn_more{
+      display: flex;
+      width: fit-content;
+      gap: 1.137197rem;
+      .case_studies_learn_more_text{
+        color: $green-yellow;
+        font-size: 1.4rem;
+      }
+    }
+}
+
+// Our Working Process
+
+.our_working_process_section{
+}
+.our_working_process_heading_wrapper{
+  display: flex;
+  gap: 3.33578rem;
+  margin-top: 10.53802rem;
+  margin-bottom: 6.06505rem;
+  align-items: center;
+}
+
+.our_working_process_content{
+}

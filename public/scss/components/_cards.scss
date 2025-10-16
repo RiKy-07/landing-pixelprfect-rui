@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+
+.process_card{
+    background-color: $white-smoke;
+    border: 1px solid $raisin-black;
+    border-bottom: 5px solid;
+    border-radius: 2.57143rem;
+}
