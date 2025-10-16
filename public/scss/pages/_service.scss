@@ -4,25 +4,14 @@
 .service_section {
   margin-top: 90px;
   width: inherit;
-  .service_heading_wrapper {
-    display: flex;
-    gap: 3.33578rem;
-    margin-bottom: 6.06505rem;
-    align-items: center;
-  }
 }
 
 .service_content {
-  display: flex;
-  flex-wrap: wrap;
-  width: inherit;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 3.032525rem;
 }
 .service_card_white {
-  width: 65rem;
-  height: 23.50207rem;
   background-color: $white-smoke;
   border: 1px solid $raisin-black;
   border-bottom: 5px solid;
@@ -77,8 +66,6 @@
   }
 }
 .service_card_black {
-    width: 65rem;
-  height: 23.50207rem;
   background-color: $raisin-black;
   border: 1px solid $raisin-black;
   border-bottom: 5px solid;
@@ -142,8 +129,6 @@
   }
 }
 .service_card_green {
-  width: 65rem;
-  height: 23.50207rem;
   background-color: $green-yellow;
   border: 1px solid $raisin-black;
   border-bottom: 5px solid;
@@ -301,14 +286,44 @@
 // Our Working Process
 
 .our_working_process_section{
-}
-.our_working_process_heading_wrapper{
+  margin-top: 10.53802rem;
+
+  .our_working_process_heading_wrapper{
   display: flex;
   gap: 3.33578rem;
-  margin-top: 10.53802rem;
-  margin-bottom: 6.06505rem;
   align-items: center;
 }
-
 .our_working_process_content{
+  margin-top: 6.06505rem;
 }
+
+}
+
+// Team section
+
+.team_section{
+  margin-top: 10.61384rem;
+
+  .team_heading_wrapper{
+    display: flex;
+    gap: 3.33578rem;
+    align-items: center;
+  }
+  .team_content{
+    margin-top: 6.06505rem;
+    gap:3.032525rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}
+
+.button_team_content{
+      
+      padding: 2rem 0;
+      display: flex;
+      justify-content: end;
+      button{
+          font-size: 1.4rem;
+      }
+  }

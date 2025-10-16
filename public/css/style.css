@@ -120,25 +120,14 @@ body {
   margin-top: 90px;
   width: inherit;
 }
-.service_section .service_heading_wrapper {
-  display: flex;
-  gap: 3.33578rem;
-  margin-bottom: 6.06505rem;
-  align-items: center;
-}
 
 .service_content {
-  display: flex;
-  flex-wrap: wrap;
-  width: inherit;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 3.032525rem;
 }
 
 .service_card_white {
-  width: 65rem;
-  height: 23.50207rem;
   background-color: #F3F3F3;
   border: 1px solid #191A23;
   border-bottom: 5px solid;
@@ -192,8 +181,6 @@ body {
 }
 
 .service_card_black {
-  width: 65rem;
-  height: 23.50207rem;
   background-color: #191A23;
   border: 1px solid #191A23;
   border-bottom: 5px solid;
@@ -256,8 +243,6 @@ body {
 }
 
 .service_card_green {
-  width: 65rem;
-  height: 23.50207rem;
   background-color: #B9FF66;
   border: 1px solid #191A23;
   border-bottom: 5px solid;
@@ -400,12 +385,40 @@ body {
   font-size: 1.4rem;
 }
 
-.our_working_process_heading_wrapper {
+.our_working_process_section {
+  margin-top: 10.53802rem;
+}
+.our_working_process_section .our_working_process_heading_wrapper {
   display: flex;
   gap: 3.33578rem;
-  margin-top: 10.53802rem;
-  margin-bottom: 6.06505rem;
   align-items: center;
+}
+.our_working_process_section .our_working_process_content {
+  margin-top: 6.06505rem;
+}
+
+.team_section {
+  margin-top: 10.61384rem;
+}
+.team_section .team_heading_wrapper {
+  display: flex;
+  gap: 3.33578rem;
+  align-items: center;
+}
+.team_section .team_content {
+  margin-top: 6.06505rem;
+  gap: 3.032525rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.button_team_content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: end;
+}
+.button_team_content button {
+  font-size: 1.4rem;
 }
 
 .btn {
@@ -429,6 +442,131 @@ body {
   padding: 1.5rem 6.5rem;
 }
 
+.process_card {
+  background-color: #F3F3F3;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+}
+
+.process_card {
+  background-color: #F3F3F3;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.274393rem;
+  justify-content: center;
+}
+
+.process_card_content {
+  margin: 3.10834rem 4.54879rem;
+  justify-content: center;
+}
+.process_card_content hr {
+  visibility: hidden;
+  color: #191A23;
+  height: 0.1rem;
+  background-color: #191A23;
+}
+
+.process_card_face {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.process_card_face .face_text {
+  display: flex;
+  align-items: center;
+  gap: 1.895328rem;
+}
+.process_card_face .face_text .face_text_number {
+  font-size: 4.2rem;
+}
+.process_card_face .face_text .face_text_title {
+  font-size: 2.8rem;
+}
+.process_card_face .face_button {
+  width: 4.39716rem;
+  height: 4.39716rem;
+  background-color: #F3F3F3;
+  border: 1px solid #191A23;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process_card_face .face_button img {
+  width: 2rem;
+}
+
+.process_card_description {
+  display: none;
+  margin-top: 2.274393rem;
+  font-size: 1.4rem;
+  visibility: hidden;
+}
+
+.team_card {
+  background-color: #F3F3F3;
+  border: 1px solid #191A23;
+  border-bottom: 5px solid;
+  border-radius: 2.57143rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.032525rem 2.65346rem;
+}
+
+.team_card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.122767rem;
+}
+.team_card_content .team_card_person {
+  display: flex;
+  justify-content: space-between;
+}
+.team_card_content .team_card_person .team_card_person_image {
+  width: 8.00966rem;
+  height: 7.7951rem;
+}
+.team_card_content .team_card_person .team_card_person_image img {
+  width: 100%;
+  height: 100%;
+}
+.team_card_content .team_card_person .team_card_pic_and_presentation {
+  display: flex;
+  align-items: end;
+  gap: 1.516262rem;
+}
+.team_card_content .team_card_person .team_card_pic_and_presentation .team_card_presentation h4 {
+  font-size: 1.4rem;
+}
+.team_card_content .team_card_person .team_card_pic_and_presentation .team_card_presentation p {
+  font-size: 1.26rem;
+}
+.team_card_content .team_card_person .team_card_linkedin .team_card_linkedin_logo {
+  width: 2.577646rem;
+  height: 2.577646rem;
+}
+.team_card_content .team_card_person .team_card_linkedin .team_card_linkedin_logo img {
+  width: 100%;
+  height: 100%;
+}
+.team_card_content hr {
+  width: 100%;
+}
+.team_card_content .team_card_description p {
+  font-size: 1.26rem;
+}
+
+.heading_wrapper {
+  display: flex;
+  gap: 3.33578rem;
+  align-items: center;
+}
+
 .heading_box {
   background-color: #B9FF66;
   color: #191A23;
@@ -442,18 +580,6 @@ body {
 .heading_text {
   color: #191A23;
   font-size: 1.26rem;
-}
-
-.process_card {
-  background-color: #F3F3F3;
-  border: 1px solid #191A23;
-  border-bottom: 5px solid;
-}
-
-.process_card {
-  background-color: #F3F3F3;
-  border: 1px solid #191A23;
-  border-bottom: 5px solid;
 }
 
 /*# sourceMappingURL=style.css.map */
