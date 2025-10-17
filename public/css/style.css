@@ -602,6 +602,21 @@ body {
 }
 .footer_section footer .footer_line_and_text {
   border-top: 1px solid #F3F3F3;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+.footer_section footer .footer_line_and_text .footer_line_and_text_box {
+  padding-top: 3.790656rem;
+  display: flex;
+  gap: 5rem;
+  text-decoration: underline;
+}
+.footer_section footer .footer_line_and_text .footer_line_and_text_box .first_text {
+  font-size: 1.26rem;
+}
+.footer_section footer .footer_line_and_text .footer_line_and_text_box .last_text {
+  font-size: 1.26rem;
 }
 
 .btn {
