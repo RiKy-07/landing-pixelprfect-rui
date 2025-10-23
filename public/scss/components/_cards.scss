@@ -13,6 +13,223 @@
 }
 
 .process_card_content{
+    padding: 3.10834rem 4.54879rem;
+    justify-content: center;
+    hr{
+        display: none;
+        color: $raisin-black;
+        height: 0rem;
+        background-color: $raisin-black;
+    }
+}
+
+.process_card_face{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .face_text{
+        display: flex;
+        align-items: center;
+        gap: 1.895328rem;
+        .face_text_number{
+            font-size: 2.8rem;
+        }
+        .face_text_title{
+            font-size: 2.8rem;
+        }
+    }
+
+    button{
+            border-radius: 50%;
+            border: 1px solid $raisin-black;
+            // border: none;
+        .face_button{
+        width: 4.39716rem;
+        height: 4.39716rem;
+        background-color: $white-smoke;
+        border: 1px solid $raisin-black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 2rem;
+        }
+    }
+        }
+
+    
+    
+}
+
+.process_card_description{
+    height: 0;
+    opacity: 0;
+}
+
+.process_card_active{
+    background-color: $green-yellow;
+    border: 1px solid $raisin-black;
+    border-bottom: 5px solid;
+    border-radius: 2.57143rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.274393rem;
+    justify-content: center;
+    transition: 0.5s;
+    .process_card_content{
+        padding: 3.10834rem 4.54879rem;
+        justify-content: center;
+
+        hr{
+            display: block;
+            color: $raisin-black;
+            height: 0.1rem;
+            background-color: $raisin-black;
+            border: 1px solid $raisin-black;
+        }
+
+        .process_card_face{
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .face_text{
+                display: flex;
+                align-items: center;
+                gap: 1.895328rem;
+                .face_text_number{
+                    font-size: 2.8rem;
+                }
+                .face_text_title{
+                    font-size: 2.8rem;
+                }
+            }
+
+            button{
+                    transition: 0.5s;
+                    border-radius: 50%;
+                    border: 1px solid $raisin-black;
+
+                    button:hover{
+                        background-color: $green-yellow;
+                    }
+                .face_button{
+                width: 4.39716rem;
+                height: 4.39716rem;
+                background-color: $green-yellow;
+                border: 1px solid $raisin-black;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                img{
+                    
+                    width: 2rem;
+                    background-color: $green-yellow;
+                }
+            }
+        }
+        }
+    }
+    .process_card_description{
+            height: 100%;
+            opacity: 1;
+            padding-top: 2.274393rem;
+            font-size: 1.8rem;
+            transition: opacity;
+    }
+}
+// Team Section cards
+
+.team_card{
+    background-color: $white-smoke;
+    border: 1px solid $raisin-black;
+    border-bottom: 5px solid;
+    border-radius: 2.57143rem;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    padding: 3.032525rem 2.65346rem;
+    
+}
+
+.team_card_content{
+    display: flex;
+    flex-direction: column;
+    gap:2.122767rem;
+
+    .team_card_person{
+        display: flex;
+        justify-content: space-between;
+        .team_card_person_image{
+            width: 8.00966rem;
+            height: 7.7951rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .team_card_pic_and_presentation{
+            display: flex;
+            align-items: end;
+            gap: 1.516262rem;
+            .team_card_presentation{
+                
+                h4{
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        .team_card_linkedin{
+          
+           
+            .team_card_linkedin_logo{
+                width: 2.577646rem;
+                height: 2.577646rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+        }
+    }
+    hr{
+        width: 100%;
+      
+    }
+
+    .team_card_description{
+        p{
+            font-size:1.8rem;
+        }
+    }
+
+}
+
+@media (max-width: 1024px){
+
+    .process_card{
+    background-color: $white-smoke;
+    border: 1px solid $raisin-black;
+    border-bottom: 5px solid;
+    border-radius: 2.57143rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.274393rem;
+    justify-content: center;
+}
+
+.process_card_content{
     margin: 3.10834rem 4.54879rem;
     justify-content: center;
     hr{
@@ -100,10 +317,10 @@
             .team_card_presentation{
                 
                 h4{
-                    font-size: 1.4rem;
+                    font-size: 2rem;
                 }
                 p{
-                    font-size: 1.26rem;
+                    font-size: 1.8rem;
                 }
             }
         }
@@ -129,8 +346,10 @@
 
     .team_card_description{
         p{
-            font-size: 1.26rem;
+            font-size: 0.9rem;
         }
     }
+
+}
 
 }

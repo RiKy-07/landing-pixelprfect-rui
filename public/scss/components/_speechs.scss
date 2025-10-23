@@ -1,42 +1,78 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 
-.speech{
-    background-color: $raisin-black;
-   
-    .speech_main_box{
-        background-color: $raisin-black;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 3.71484rem;
+.speech {
+  background-color: $raisin-black;
 
-        .speech_main_box_text{
-        padding: 3.63903rem 4.70041rem 3.86647rem 3.94228rem;
-        border: 1px solid $green-yellow;
-        border-radius: 2.57143rem;
-            p{
-                font-size: 1.26rem;
-                color: $white-smoke;
-            } 
-        }
-        
-        .speech_quotee{
-            .quotee_name{
-                h4{
-                    color: $green-yellow;
-                    font-size: 1.4rem;
-                }
-            }
-            .quotee_description{
-                p{
-                    color: $white-smoke;
-                    font-size: 1.26rem;
-                }
-            }
-        }
-        
+  .speech_main_box {
+    background-color: $raisin-black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3.71484rem;
+
+    .speech_main_box_text {
+      padding: 3.63903rem 4.70041rem 3.86647rem 3.94228rem;
+      border: 1px solid $green-yellow;
+      border-radius: 2.57143rem;
+      p {
+        font-size: 1.8rem;
+        color: $white-smoke;
+      }
     }
 
-    
+    .speech_quotee {
+      .quotee_name {
+        h4 {
+          color: $green-yellow;
+          font-size: 2rem;
+        }
+      }
+      .quotee_description {
+        p {
+          color: $white-smoke;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+      .speech {
+  background-color: $raisin-black;
+
+  .speech_main_box {
+    background-color: $raisin-black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3.71484rem;
+
+    .speech_main_box_text {
+      padding: 3.63903rem 4.70041rem 3.86647rem 3.94228rem;
+      border: 1px solid $green-yellow;
+      border-radius: 2.57143rem;
+      p {
+        font-size: 1.8rem;
+        color: $white-smoke;
+      }
+    }
+
+    .speech_quotee {
+      .quotee_name {
+        h4 {
+          color: $green-yellow;
+          font-size: 1.422222rem;
+        }
+      }
+      .quotee_description {
+        p {
+          color: $white-smoke;
+          font-size: 1.28rem;
+        }
+      }
+    }
+  }
+}  
 }

@@ -4,9 +4,10 @@
 
 .btn {
   border-radius: 0.8rem;
-  font-size: 1.6rem;
-  font-family: "Space Grotesk";
+  font-size: 2rem;
+  font-family: "Space Grotesk Regular";
   border: none;
+  padding: 1.5rem 2.5rem;
   cursor: pointer;
 }
 
@@ -14,19 +15,16 @@
   background: transparent;
   border: 0.1rem solid $raisin-black;
   color: $raisin-black;
-  padding: 1.5rem;
 }
 
 .btn_dark {
   color: $white-smoke;
   background: $raisin-black;
-  padding: 1.5rem 6.5rem;
 }
 
 .btn_green {
   color: $raisin-black;
   background: $green-yellow;
-  padding: 1.5rem 6.5rem;
 }
 
 .process_card{

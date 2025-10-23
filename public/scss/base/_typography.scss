@@ -1,23 +1,29 @@
 @font-face {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk Bold";
   src: url("../assets/fonts/SpaceGrotesk-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Space Grotesk";
-  src: url("../assets/fonts/SpaceGrotesk-Light.ttf") format("truetype");
-  font-weight: 300;
+  font-family: "Space Grotesk Semi-Bold";
+  src: url("../assets/fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk Medium";
   src: url("../assets/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Space Grotesk";
-  src: url("../assets/fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
-  font-weight: 600;
+  font-family: "Space Grotesk Regular";
+  src: url("../assets/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Space Grotesk Light";
+  src: url("../assets/fonts/SpaceGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
 }

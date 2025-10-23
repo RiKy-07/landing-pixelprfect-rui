@@ -2,8 +2,9 @@
 @use "../base" as *;
 
 .service_section {
-  margin-top: 90px;
-  width: inherit;
+  width: 100%;
+  padding: 4rem 8rem;
+  // margin-left: 2rem;
 
   .heading_wrapper{
     padding: 10.68965rem 0 6.06505rem 0;
@@ -20,16 +21,18 @@
   border: 1px solid $raisin-black;
   border-bottom: 5px solid;
   border-radius: 2.57143rem;
+  padding: 3.790656rem;
   display: flex;
   justify-content: space-between;
+  gap: 5.98924rem;
 
   .service_card_text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3.790656rem;
     .service_card_title {
-      font-size: 2.1rem;
+      font-size: 3rem;
+      font-family: "Space Grotesk Medium";
       h3 {
         background-color: $green-yellow;
         width: fit-content;
@@ -38,10 +41,8 @@
     }
     .learn_more {
       display: flex;
-      width: 12.43335rem;
-      height: 3.10834rem;
       align-items: center;
-      justify-content: space-between;
+      gap: 1.137197rem;
       .learn_more_arrow {
         width: 3.10834rem;
         height: 3.10834rem;
@@ -51,18 +52,15 @@
         }
       }
       .learn_more_text {
-        width: 8.18782rem;
-        height: 2.122767rem;
         text-align: center;
         h4 {
-          font-size: 1.4rem;
+          font-size: 2rem;
         }
       }
     }
   }
 
   .service_card_illustration{
-    margin: 3.790656rem;
     img{
         width: 100%;
         height: 100%;
@@ -76,14 +74,15 @@
   border-radius: 2.57143rem;
   display: flex;
   justify-content: space-between;
+  padding: 3.790656rem;
 
   .service_card_text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3.790656rem;
     .service_card_title_white {
-      font-size: 2.1rem;
+      font-size: 3rem;
+      font-family: "Space Grotesk Medium";
       h3 {
         background-color: $white-smoke;
         width: fit-content;
@@ -92,7 +91,8 @@
     }
 
     .service_card_title_green {
-      font-size: 2.1rem;
+      font-size: 3rem;
+      font-family: "Space Grotesk Medium";
       h3 {
         background-color: $green-yellow;
         width: fit-content;
@@ -101,10 +101,8 @@
     }
     .learn_more {
       display: flex;
-      width: 12.43335rem;
-      height: 3.10834rem;
+      gap: 1.137197rem;
       align-items: center;
-      justify-content: space-between;
       .learn_more_arrow {
         width: 3.10834rem;
         height: 3.10834rem;
@@ -114,18 +112,15 @@
         }
       }
       .learn_more_text {
-        width: 8.18782rem;
-        height: 2.122767rem;
         text-align: center;
         color: $white-smoke;
         h4 {
-          font-size: 1.4rem;
+          font-size: 2rem;
         }
       }
     }
   }
   .service_card_illustration{
-    margin: 3.790656rem;
     img{
         width: 100%;
         height: 100%;
@@ -139,14 +134,16 @@
   border-radius: 2.57143rem;
   display: flex;
   justify-content: space-between;
+  padding: 3.790656rem;
 
   .service_card_text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 3.790656rem;
+    
     .service_card_title {
-      font-size: 2.1rem;
+      font-size: 3rem;
+      font-family: "Space Grotesk Medium";
       h3 {
         background-color: $white-smoke;
         width: fit-content;
@@ -155,10 +152,8 @@
     }
     .learn_more {
       display: flex;
-      width: 12.43335rem;
-      height: 3.10834rem;
       align-items: center;
-      justify-content: space-between;
+      gap: 1.137197rem;
       .learn_more_arrow {
         width: 3.10834rem;
         height: 3.10834rem;
@@ -168,17 +163,14 @@
         }
       }
       .learn_more_text {
-        width: 8.18782rem;
-        height: 2.122767rem;
         text-align: center;
         h4 {
-          font-size: 1.4rem;
+          font-size: 2rem;
         }
       }
     }
   }
   .service_card_illustration{
-    margin: 3.790656rem;
     img{
         width: 100%;
         height: 100%;
@@ -188,6 +180,7 @@
 
 .cta_block{
     margin-top: 9.40083rem;
+    width: 100%;
 
     .cta_block_content{
         display: flex;
@@ -203,27 +196,17 @@
             flex-direction: column;
             justify-content: space-between;
             gap: 1.97114rem;
-            margin: 4.54879rem;
+            padding: 4.54879rem;
             .cta_block_text_h3{
                 
                 h3{
-                  font-size: 2.1rem;  
+                  font-size: 3rem;  
                 }
             }
             .cta_block_text_p{
 
                 p{
-                    font-size: 1.26rem;
-                }
-            }
-            .cta_block_text_button{
-                width: 21.83418rem;
-                height: 5.07948rem;
-                button{
-                    width: 100%;
-                    height: 100%;
-                    font-size: 1.4rem;
-                    padding: 0rem;
+                    font-size: 1.8rem;
                 }
             }
         }
@@ -244,11 +227,16 @@
 // Case Studies Section
 
 .case_studies_section{
-  margin-top: 6.06505rem;
+
+  // margin-top: 6.06505rem;
+  width: 100%;
+  padding: 0 8rem;
+  // margin-left: 2rem;
+
   .heading_wrapper{
     display: flex;
     gap: 3.33578rem;
-    padding: 12.35754rem 0rem 10.53802rem 0rem;
+    padding: 8rem 0rem 8rem 0rem;
     align-items: center;
   }
 }
@@ -274,7 +262,7 @@
 
     .case_studies_text{
       color: white;
-      font-size: 1.26rem;
+      font-size: 1.8rem;
       margin-right: 2.42602rem;
     }
     .case_studies_learn_more{
@@ -283,7 +271,7 @@
       gap: 1.137197rem;
       .case_studies_learn_more_text{
         color: $green-yellow;
-        font-size: 1.4rem;
+        font-size: 2rem;
       }
     }
 }
@@ -292,14 +280,15 @@
 
 .our_working_process_section{
   margin-top: 10.53802rem;
+  width: 100%;
+  padding: 0 8rem;
+  // margin-left: 2rem;
 
-  .our_working_process_heading_wrapper{
+  .heading_wrapper{
   display: flex;
   gap: 3.33578rem;
   align-items: center;
-}
-.our_working_process_content{
-  margin-top: 6.06505rem;
+  padding-bottom: 6.06505rem;
 }
 
 }
@@ -308,6 +297,9 @@
 
 .team_section{
   margin-top: 10.61384rem;
+  width: 100%;
+  padding: 4rem 8rem;
+  // margin-left: 2rem;
 
   .team_heading_wrapper{
     display: flex;
@@ -324,18 +316,22 @@
 }
 
 .button_team_content{
-      
+      margin-top: 90px;
       padding: 2rem 0;
       display: flex;
       justify-content: end;
       button{
-          font-size: 1.4rem;
+          font-size: 2rem;
       }
   }
 
   // Testimonials section
 
   .testimonials_section{
+    margin-top: 90px;
+    width: 100%;
+    padding: 4rem 8rem;
+    // margin-left: 2rem;
 
     .heading_wrapper{
       padding-top: 8.79432rem;
@@ -379,6 +375,9 @@
 
 
   .contact_section{
+  width: 100%;
+  padding: 4rem 8rem;
+  // margin-left: 2rem;
 
     .heading_wrapper{
       padding: 10.61384rem 0 6.06505rem 0;
@@ -387,43 +386,51 @@
     .contact_content{
       
       .contact_block{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         padding: 4.54879rem 0 6.06505rem 7.58131rem;
-        justify-content: space-between;
-        gap: 16.45145rem;
         background-color: $white-smoke;
         border-radius: 2.57143rem;
+        gap: 16.45145rem;
+
 
         .contact_form{
-          
             gap: 3.032525rem;
             form{
               height: 100%;
               display: flex;
               flex-direction: column;
               justify-content: space-evenly;
+              gap: 3.032525rem;
             .radio_container{
               display: flex;
-              justify-content: space-between;
-              font-size: 1.26rem;
+              font-size: 1.8rem;
+              gap: 1.895328rem;
+              align-items: center;
 
-              input{
-                // appearance: none;
-                // border: 1px solid $raisin-black;
-                // border-radius: 50%;
-                // width: 1rem;
-                // height: 1rem;
-                // background-color: $white-smoke;
+              .radio_opt{
+                display: flex;
+                gap: 0.909757rem;
+                align-items: center;
+                font-weight: 100;
+              input {
+                //appearance: none;
+                border: 1px solid $raisin-black;
+                border-radius: 50%;
+                width: 2.122767rem;
+                height: 2.122767rem;
+                background-color: $white-smoke;
+                accent-color: $green-yellow;
+                
               }
-              input:checked{
+              input:checked {
                 
                 // appearance: none;
-                // border: 1px solid $raisin-black;
-                // border-radius: 50%;
-                // width: 1rem;
-                // height: 1rem;
-                // background-color: $white-smoke;
-                accent-color: $green-yellow;
+                border: 1px solid $raisin-black;
+                border-radius: 50%;
+                background-color: $white-smoke;
+                accent-color: green;
+                }
               }
             }
 
@@ -431,62 +438,85 @@
               display: flex;
               flex-direction: column;
               gap: 1.895328rem;
-              font-size: 1.12rem;
               padding: 0rem 0rem 0rem 0rem;
 
               .name_container{
+                display: flex;
+                flex-direction: column;
+                gap: 1.1rem;
                 div{
                   label{
-
+                    font-size: 1.6rem;
                   }
                   input{
-                    font-size: 1.26rem;
-                    border-radius: 0.8rem;
+                    font-size: 1.8rem;
+                    font-family: "Space Grotesk Regular";
+                    border-radius: 1.2rem;
                     padding: 1.364636rem 2.274393rem;
                     width: 100%;
+                    border: 1px solid $raisin-black;
+                    outline: none;
                   }
                 }
               }
 
               .email_container{
+                display: flex;
+                flex-direction: column;
+                gap: 1.1rem;
                 div{
                   label{
-
+                    font-size: 1.6rem;
                   }
                   input{
-                    font-size: 1.26rem;
-                    border-radius: 0.8rem;
+                    font-size: 1.8rem;
+                    font-family: "Space Grotesk Regular";
+                    border-radius: 1.2rem;
                     padding: 1.364636rem 2.274393rem;
                     width: 100%;
+                    border: 1px solid black;
+                    outline: none;
                   }
                 }
               }
 
               .message_container{
+                display: flex;
+                flex-direction: column;
+                gap: 1.1rem;
                 div{
                   label{
-
+                    font-size: 1.6rem;
                   }
                   textarea{
-                    font-size: 1.26rem;
-                    border-radius: 0.8rem;
+                    resize: none;
+                    font-size: 1.8rem;
+                    font-family: "Space Grotesk Regular";
+                    border-radius: 1.2rem;
                     padding: 1.364636rem 2.274393rem;
                     width: 100%;
                     height: 14.4045rem;
+                    border: 1px solid $raisin-black;
+                    outline: none;
                   }
                 }
               }
 
             }
+
+            .button_contact_content{
+          button{
+            width: 100%;
+            font-size: 2rem;
+          }
+        }
           }
         }
   
         .contact_illustration{
           display: flex;
-          justify-content: end;          
-          img{
-            width: 100%;
-          }
+          justify-content: end;
+
         }
       }
 
@@ -494,7 +524,9 @@
   }
 
 .footer_section{
- 
+  width: 100%;
+  padding: 0rem 8rem;
+  // margin-left: 2rem;
 
   footer{ 
     background-color: $raisin-black;
@@ -518,6 +550,7 @@
         display: flex;
         justify-content: space-between;
 
+
         .footer_logotype{
 
         }
@@ -527,9 +560,10 @@
             display: flex;
             justify-content: space-between;
             gap: 3.032525rem;
-            font-size: 1.26rem;
+            font-size: 1.8rem;
             text-decoration: dashed;
             text-decoration: underline;
+            font-family: "Space Grotesk Light";
           }
         }
 
@@ -542,8 +576,8 @@
 
       .footer_contacts{
         display: flex;
-        justify-content: space-between;
         gap: 10.84128rem;
+        justify-content: space-between;
 
         
         .contact_info{
@@ -555,9 +589,10 @@
               width: fit-content;
               div{
                 h4{
+                  font-family: "Space Grotesk Medium";
                   padding: 0.530692rem;
                   border-radius: 0.4rem;
-                  font-size: 1.4rem;
+                  font-size: 2rem;
                   background-color: $green-yellow;
                   color: $raisin-black
                 }
@@ -570,22 +605,26 @@
               gap: 1.516262rem;
               div{
                 p{
-                  font-size: 1.26rem;
+                  font-family: "Space Grotesk Regular";
+                  font-size: 1.8rem;
                 }
               }
             }
         }
 
         .contact_form{
-
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
           form{
             display: flex;
-            justify-content: space-between;
-            align-items: center;
             gap: 1.516262rem;
             padding: 4.39716rem 3.032525rem;
             background-color: #292A32;
             border-radius: 0.8rem;
+            font-family: "Space Grotesk Regular";
+            justify-content: center;
+            height: 100%;
             
             input{
               padding: 1.66789rem 2.65346rem;
@@ -596,7 +635,12 @@
               }
               input::placeholder{
                 color: $white-smoke;
+                font-family: "Space Grotesk Regular";
               }
+
+            button{
+              font-family: "Space Grotesk Regular";
+            }
           }
         }
 
@@ -609,17 +653,18 @@
       display: flex;
       align-items:end;
       justify-content: start;
+      font-family: "Space Grotesk Regular";
 
       .footer_line_and_text_box{
         padding-top: 3.790656rem;
         display: flex;
         gap: 5rem;
-        text-decoration: underline;
         .first_text{
-          font-size: 1.26rem;
+          font-size: 1.8rem;
         }
         .last_text{
-          font-size: 1.26rem;
+          font-size: 1.8rem;
+          text-decoration: underline;
         }
       }
     }
