@@ -1,0 +1,35 @@
+
+@use "../abstracts" as *;
+@use "../base" as *;
+
+.btn {
+  border-radius: 0.8rem;
+  font-size: 2rem;
+  font-family: "Space Grotesk Regular";
+  border: none;
+  padding: 1.5rem 2.5rem;
+  cursor: pointer;
+}
+
+.btn_white {
+  background: transparent;
+  border: 0.1rem solid $raisin-black;
+  color: $raisin-black;
+}
+
+.btn_dark {
+  color: $white-smoke;
+  background: $raisin-black;
+}
+
+.btn_green {
+  color: $raisin-black;
+  background: $green-yellow;
+}
+
+.process_card{
+    background-color: $white-smoke;
+    border: 1px solid $raisin-black;
+    border-bottom: 5px solid;
+}
+

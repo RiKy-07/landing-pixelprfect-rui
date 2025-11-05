@@ -1,0 +1,46 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+
+.heading_wrapper{
+      display: flex;
+      gap: 3.33578rem;
+      align-items: center;
+}
+
+.heading_box {
+      background-color: $green-yellow;
+      color: $raisin-black;
+      border-radius: 0.4rem;
+      font-size: 2.8rem;
+      padding: 0rem 0.530692rem;
+}
+
+.heading_text {
+      color: $raisin-black;
+      font-size: 1.8rem;
+}
+
+@media (max-width: 1024px){
+
+      .heading_wrapper{
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      }
+
+      .heading_box {
+      background-color: $green-yellow;
+      color: $raisin-black;
+      border-radius: 0.4rem;
+      font-size: 1.4rem;
+      padding: 0rem 0.25rem;
+      }  
+
+      .heading_text {
+      color: $raisin-black;
+      font-size: 0.9rem;
+      }
+
+}
+
+
